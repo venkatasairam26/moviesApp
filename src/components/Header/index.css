@@ -1,0 +1,172 @@
+.nav-container {
+  background-color: #13131360;
+}
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+}
+.search-btn {
+  background: none;
+  border: none;
+}
+.btn-elements {
+  display: flex;
+  align-items: center;
+}
+.search-icon {
+  color: #ffffff;
+}
+.search-input-ele {
+  width: 100%;
+  outline: none;
+  color: #babdc2;
+  background: #131313;
+}
+.input-card {
+  display: flex;
+  border: 1px solid #ffffff;
+  border-radius: 4px;
+}
+.non-search {
+  height: 24px;
+  width: 24px;
+  border-radius: 0px;
+  background-color: transparent;
+  color: #ffffff;
+}
+.mobile-menu-details {
+  display: none;
+}
+@media screen and (max-width: 786px) {
+  .ul-link {
+    display: none;
+  }
+  .avatar {
+    display: none;
+  }
+  .nav-container {
+    display: flex;
+    flex-direction: column;
+    background-color: #13131360;
+  }
+
+  .header-movie-logo {
+    height: 27px;
+    width: 100px;
+    margin-left: 33px;
+    margin-top: 24px;
+    margin-bottom: 24px;
+    border-radius: 0px;
+  }
+  .menu {
+    height: 24px;
+    padding-top: 3px;
+    width: 24px;
+    border-radius: 0px;
+    color: #ffffff;
+    background: transparent;
+  }
+  .menu-btn {
+    background: none;
+    border: none;
+  }
+  .btn-elements {
+    margin-top: 22px;
+    margin-right: 32px;
+  }
+  .mobile-menu-details {
+    margin-right: 32px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style-type: none;
+  }
+  .input-card {
+    height: 24px;
+    width: 114px;
+  }
+  .text {
+    text-decoration: none;
+    font-family: 'HK Grotesk';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    /* identical to box height, or 162% */
+    color: #ffffff;
+    letter-spacing: -0.355556px;
+  }
+  .close-btn {
+    height: 24px;
+    width: 24px;
+    background: none;
+    border: none;
+    border-radius: 0px;
+  }
+  .close-icon {
+    height: 20px;
+    width: 20px;
+    left: 2px;
+    top: 2px;
+    border-radius: 0px;
+    color: #ffffff;
+  }
+}
+@media screen and (min-width: 787px) {
+  .menu-btn {
+    display: none;
+  }
+  .nav-container {
+    align-items: center;
+  }
+  .nav-bar {
+    align-items: center;
+  }
+  .ul-link {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    margin: 0px;
+  }
+  .logo-ul-cont {
+    display: flex;
+  }
+  .Home-text-active {
+    font-weight: 700;
+    text-decoration: underline;
+  }
+  .route-link {
+    font-family: 'HK Grotesk';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 16px;
+    line-height: 26px;
+    /* identical to box height, or 162% */
+    letter-spacing: -0.355556px;
+    text-decoration: none;
+    color: #ffffff;
+    margin-left: 24px;
+  }
+  .search-user {
+    display: flex;
+    margin-right: 155px;
+  }
+  .header-movie-logo {
+    height: 39px;
+    width: 135.00051879882812px;
+    margin-left: 165px;
+    margin-top: 28px;
+    margin-bottom: 28px;
+    border-radius: 0px;
+  }
+  .avatar {
+    height: 36px;
+    width: 36px;
+    background-color: #ffffff;
+    border-radius: 0px;
+    padding-top: 6px;
+    border-radius: 24px;
+
+    margin-left: 20px;
+  }
+}

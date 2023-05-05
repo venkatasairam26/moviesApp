@@ -1,0 +1,194 @@
+.home-cont {
+  min-width: 100vw;
+  background: #181818;
+}
+.movie-title {
+  font-family: 'HK Grotesk';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 64px;
+  line-height: 62px;
+  color: #ffffff;
+}
+.movie-overview {
+  font-family: 'HK Grotesk';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 26px;
+  color: #ffffff;
+}
+.paly-btn {
+  left: 164.5px;
+  top: 419px;
+  border-radius: 3px;
+  border-radius: 3px;
+  border: 0px;
+  padding: 0px;
+  width: 26px;
+  height: 24px;
+  font-family: 'HK Grotesk';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 24px;
+  color: #171f46;
+}
+.trending-now {
+  font-family: 'HK Grotesk';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 31px;
+  color: #ffffff;
+}
+.failure-cont {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 466px;
+  width: 1109px;
+  border-radius: 8px;
+  background: #0d0d0d;
+  border-radius: 8px;
+  margin-left: 165px;
+  margin-top: 32px;
+}
+
+.failure-msg {
+  height: 18px;
+  width: 251px;
+  left: 595px;
+  top: 367px;
+  font-family: 'HK Grotesk';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+
+  color: #ffffff;
+}
+
+@media screen and (min-width: 769px) {
+  .home-poster {
+    width: 100vw;
+    background-size: cover;
+  }
+
+  .processing {
+    height: 466px;
+
+    border-radius: 8px;
+    background: #0d0d0d;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 165px;
+    margin-right: 165px;
+    margin-top: 32px;
+    flex-shrink: 1;
+  }
+  .failure-logo {
+    height: 38px;
+    width: 43.99729919433594px;
+    left: 2.0009765625px;
+    top: 4px;
+    border-radius: 0px;
+  }
+  .failure-btn {
+    height: 32px;
+    width: 94px;
+    left: 673.5px;
+    top: 401px;
+    border-radius: 3px;
+    border-radius: 3px;
+  }
+  .movie-title {
+    height: 62px;
+    left: 164px;
+    border-radius: 0px;
+  }
+  .movie-overview {
+    width: 50%;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+  .paly-btn {
+    height: 40px;
+    width: 74px;
+    margin-bottom: 120px;
+  }
+  .home-movie-details {
+    padding-top: 75px;
+    padding-left: 145px;
+  }
+  .originals-trend-cont {
+    padding-left: 105px;
+    background-color: transparent;
+  }
+  .trending-now {
+    height: 31px;
+    left: 165px;
+    padding-top: 35px;
+    padding-bottom: 24px;
+    border-radius: 0px;
+    padding-left: 55px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .home-poster {
+    width: 100%;
+  }
+  .processing {
+    height: 213px;
+    width: 296px;
+    background-color: #0d0d0d;
+    margin-left: 26px;
+    margin-right: 26px;
+    margin-top: 28px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+  }
+  .loading-cont {
+    display: flex;
+    flex-direction: column;
+  }
+  .movie-title {
+    font-size: 36px;
+    border-radius: 0px;
+    line-height: 47px;
+  }
+  .movie-overview {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+  .paly-btn {
+    height: 32px;
+    width: 76px;
+    left: 0px;
+    top: 0px;
+    border-radius: 4px;
+    margin-bottom: 24px;
+  }
+  .home-movie-details {
+    margin-left: 32px;
+  }
+  .trending-now {
+    font-size: 16px;
+    line-height: 21px;
+    margin-top: 32px;
+    margin-left: 32px;
+  }
+}
