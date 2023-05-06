@@ -142,7 +142,6 @@
   }
   .error-msg {
     height: 18px;
-
     top: 592px;
     align-self: flex-start;
     font-family: 'HK Grotesk';
@@ -168,17 +167,14 @@
   height: 40px;
   left: 681px;
   top: 356px;
-
   font-family: 'HK Grotesk';
   font-style: normal;
   font-weight: 600;
   font-size: 32px;
   line-height: 40px;
-
   display: flex;
   align-items: center;
   text-align: center;
-
   color: #ffffff;
 }
 
