@@ -58,7 +58,7 @@ class Account extends Component {
 
                     <button
                       type="button"
-                      className="logout-btn close-btn"
+                      className="logout-btn acc-close-btn"
                       onClick={() => close()}
                     >
                       Cancel
